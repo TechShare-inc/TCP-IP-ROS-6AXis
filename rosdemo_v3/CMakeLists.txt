@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 #find_package(jsoncpp REQUIRED PATHS ${JSONCPP_DIR})
+find_package(nlohmann_json 3.2.0)
 
 ## 声明自定义的srv文件
 add_service_files(

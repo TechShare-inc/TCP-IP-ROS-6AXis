@@ -17,6 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
+find_package(nlohmann_json 3.2.0)
 
 set(CMAKE_AUTOMOC ON)
 
